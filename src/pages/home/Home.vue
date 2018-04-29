@@ -1,13 +1,12 @@
 <template>
-  <div id="app">
-    列表切换
-    <router-view/>
+  <div>
+    <div>home</div>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'App'
+  name: 'home'
 }
 </script>
 
