@@ -1,6 +1,5 @@
 <template>
   <div id="app">
-    列表切换
     <router-view/>
   </div>
 </template>
