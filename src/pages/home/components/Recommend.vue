@@ -17,23 +17,8 @@
 <script>
 export default {
   name: 'HomeRecommend',
-  data () {
-    return {
-      recommendList: [
-        {
-          'id': '0001',
-          'imgUrl': 'http://img1.qunarzz.com/sight/p0/1409/19/adca619faaab0898245dc4ec482b5722.jpg_140x140_80f63803.jpg',
-          'title': '大连旅游海洋世界',
-          'desc': '非常浪漫的海洋主题乐园乐园乐非常浪漫的海洋主题乐园乐园乐非常浪漫的海洋主题乐园乐园乐'
-        },
-        {
-          'id': '0002',
-          'imgUrl': 'http://img1.qunarzz.com/sight/p0/1409/19/adca619faaab0898245dc4ec482b5722.jpg_140x140_80f63803.jpg',
-          'title': '大连旅游海洋世界',
-          'desc': '非常浪漫的海洋主题乐园乐园乐非常浪漫的海洋主题乐园乐园乐非常浪漫的海洋主题乐园乐园乐'
-        }
-      ]
-    }
+  props: {
+    recommendList: Array
   }
 }
 </script>
