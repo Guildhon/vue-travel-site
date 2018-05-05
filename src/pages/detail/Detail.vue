@@ -1,15 +1,23 @@
 <template>
-  <detail-banner></detail-banner>
+  <div>
+    <detail-banner></detail-banner>
+    <detail-header></detail-header>
+    <div class="content"></div>
+  </div>
 </template>
 <script>
 import DetailBanner from './components/Banner.vue'
+import DetailHeader from './components/Header.vue'
 export default {
-  components: {DetailBanner},
   name: 'Detail',
-  componetns: {
-    DetailBanner
+  components: {
+    DetailBanner,
+    DetailHeader
   }
 }
 </script>
 
-<style lang="stylus" scoped ref="stylesheet/stylus"></style>
+<style lang="stylus" scoped ref="stylesheet/stylus">
+  .content
+    height: 50rem
+</style>
