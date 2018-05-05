@@ -37,6 +37,10 @@ export default {
   },
   activated () {
     window.addEventListener('scroll', this.handleScroll)
+  },
+  deactivated () {
+    // 当组件被销毁或替换执行
+    window.removeEventListener('scroll', this.handleScroll)
   }
 }
 </script>
