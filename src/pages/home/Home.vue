@@ -66,5 +66,4 @@ export default {
 }
 </script>
 
-<style>
-</style>
+<style lang="stylus" scoped ref="stylesheet/stylus"></style>
