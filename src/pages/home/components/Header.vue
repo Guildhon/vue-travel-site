@@ -17,7 +17,7 @@
 </template>
 
 <script>
-// mapState是映射vuex属性,使用doubleCity可映射到vuex的getter计算的数据
+// mapState是映射vuex属性,使用mapGetters可映射到vuex的getter计算的数据
 import { mapState, mapGetters } from 'vuex'
 export default {
   name: 'HomeHeader',
