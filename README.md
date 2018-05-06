@@ -1,7 +1,5 @@
 # Vue实现去哪儿网
 
----
-
 由脚手架vue-cli搭建
 
 技术实现：
@@ -39,12 +37,14 @@ keepalive的exclude使用
 ### 一些坑
 
 组件拖动以后影响其他组件，在router里使用下面代码
-```scrollBehavior (to, from, savedPostion) {
+```
+scrollBehavior (to, from, savedPostion) {
     return {
       x: 0,
       y: 0
     }
-}```
+}
+```
 使页面切换回到顶部
 
 babel-polyfill：有些安卓手机出现 白屏问题，给不支持promise之类的安卓手机增加promise特性
